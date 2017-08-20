@@ -46,7 +46,7 @@ $(function() {
 
         $.ajax({
             data: data,
-            url: '/iterlainc/iterlacheckForm.php',
+            url: 'iterlainc/iterlacheckForm.php',
             success: function(data) {
                 var result = JSON.parse(data);
 

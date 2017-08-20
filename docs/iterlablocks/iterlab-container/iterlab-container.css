@@ -1,5 +1,6 @@
 .b-container {
-    width: 980px;
     background: #fff;
     margin: auto;
+    max-width: 980px;
+    width: 100%;
 }

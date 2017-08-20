@@ -49,3 +49,26 @@
 .b-foot__phone-sep {
     color: #6c6969;
 }
+
+@media (max-width: 650px){
+    .b-foot{
+    margin: 0px 0 0;}
+    .b-foot__title{
+    text-align: center;}
+    .b-foot__address{
+    text-align: center;}
+    .b-foot__copy{
+    text-align: center;}
+    .b-foot__phone{
+    text-align: center;
+    position: relative;
+    max-width: 270px;
+    left: 50%;
+    margin-left: -157px;
+    margin-top: 30px;}
+}
+@media (max-width: 350px){
+    .b-foot__phone{
+    background: none;
+    margin-left: -187px;}
+}

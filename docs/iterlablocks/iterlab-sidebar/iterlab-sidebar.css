@@ -51,7 +51,7 @@
 
 .b-sidebar__popular-list {
     margin: 0 0 0 41px;
-    padding: 0;
+    padding: 0px;
     list-style: none;
 }
 
@@ -137,4 +137,38 @@
     font-size: 15px;
     font-style: normal;
     font-weight: bold;
+}
+@media (max-width: 650px){
+    .b-sidebar {
+        width: 100%;
+    }
+    .b-sidebar__popular-list{
+    max-width: 166px;
+    margin: 0px auto 0px;
+    padding-left: 3px;}
+    .b-sidebar__popular-title{text-align: center;background: url(iterlastar.png) no-repeat 10px 50%;margin: 10px auto 10px;max-width: 241px;}
+    .b-sidebar__pricing-item{
+    text-align: center;}
+    .b-sidebar__advantages-title{
+    text-align: center;}
+    .b-sidebar__advantages-text{
+    width: auto;}
+    .b-sidebar__advantages-text br{display: none;}
+    .b-sidebar__advantages-list{
+    max-width: 320px;
+    margin: 0px auto;
+    padding-top: 20px;}
+    .b-sidebar__advantages-item{
+    display: block;
+    max-width: calc720px;
+    margin: 20px auto 0px;
+    padding-left: 57px;
+    min-height: 45px;
+    position: relative;}
+    .b-sidebar__advantages-icon{
+    position: absolute;
+    left: 0px;
+    top: -10px;}
+}
+@media (max-width: 450px){
 }
