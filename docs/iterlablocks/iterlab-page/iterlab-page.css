@@ -1,0 +1,17 @@
+.b-page {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 14px;
+    background: #bfbfbf;
+    color: #333;
+}
+
+@font-face {
+    font-family: 'als_rublregular';
+    src: url('../iterlafonts/iterlarouble-webfont.eot');
+    src: url('../iterlafonts/iterlarouble-webfont.eot') format('embedded-opentype'),
+    url('../iterlafonts/iterlarouble-webfont.woff') format('woff'),
+    url('../iterlafonts/iterlarouble-webfont.ttf') format('truetype'),
+    url('../iterlafonts/iterlarouble-webfont.svg#als_rublregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

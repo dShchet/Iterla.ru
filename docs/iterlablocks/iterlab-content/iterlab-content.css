@@ -1,0 +1,90 @@
+.b-content {
+    float: right;
+    width: 660px;
+}
+
+.b-content__title {
+    margin: 0;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.b-content__list {
+    margin: 0 0 0 14px;
+    padding: 0;
+    list-style: none;
+}
+
+.b-content__item {
+    margin: 11px 0 0;
+    padding: 5px 0 5px 34px;
+    background: url(iterlacheck.png) no-repeat 0 50%;
+}
+
+.b-content__item:first-child {
+    margin: 0;
+}
+
+.b-content__box {
+    margin: 14px 0;
+    padding: 15px;
+    border: 1px solid #FD6906;
+}
+
+.b-content__box-title {
+    margin: -15px;
+    padding: 10px 15px 10px;
+    border-bottom: 1px solid #ccc;
+    background: #fafafa;
+}
+
+.b-content__box-list {
+    margin: 25px 0 0;
+    padding: 0;
+    float: left;
+    width: 50%;
+    list-style: none;
+}
+
+.b-content__box-item {
+    position: relative;
+    margin: 9px 0 0;
+    padding: 0 20px 0 15px;
+}
+
+.b-content__box-item:first-child {
+    margin: 0;
+}
+
+.b-content__box-item:before {
+    position: absolute;
+    top: 8px;
+    right: 100%;
+    margin: 0 -5px 0 0;
+    width: 5px;
+    height: 5px;
+    background: #FD6906;
+    border-radius: 50%;
+    content: '';
+}
+
+.b-content__text {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.b-content__text a {
+    color: #09f;
+    text-decoration: none;
+    border-bottom: 1px solid #B2CCF0;
+}
+
+.b-content__text a:visited {
+    color: #B40EB4;
+    border-color: #E0B2E0;
+}
+
+.b-content__text a:hover {
+    color: #c00;
+    border-color: #F0B2B2;
+}

@@ -1,0 +1,140 @@
+.b-sidebar {
+    width: 263px;
+    float: left;
+}
+
+.b-sidebar__pricing {
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    background: #4c4c4c;
+    font-size: 15px;
+}
+
+.b-sidebar__pricing-item {
+    padding: 10px 0;
+    border-top: 2px dotted #FD6906;
+    color: #fff;
+}
+
+.b-sidebar__pricing-item:first-child {
+    padding-top: 0;
+    border: none;
+}
+
+.b-sidebar__pricing-item:last-child {
+    padding-bottom: 0;
+}
+
+.b-sidebar__pricing-highlight {
+    color: #ff1111;
+    font-style: normal;
+}
+
+.b-sidebar__price {
+    font-style: normal;
+    color: #fff;
+}
+
+.b-sidebar__rouble {
+    font-style: normal;
+    font-family: 'als_rublregular', sans-serif;
+}
+
+.b-sidebar__popular-title {
+    padding: 6px 0 6px 41px;
+    background: url(iterlastar.png) no-repeat 0 50%;
+    font-size: 22px;
+    color: #FD6906;
+    font-weight: normal;
+}
+
+.b-sidebar__popular-list {
+    margin: 0 0 0 41px;
+    padding: 0;
+    list-style: none;
+}
+
+.b-sidebar__popular-item {
+    position: relative;
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #3e94ec;
+}
+
+.b-sidebar__popular-item:first-child {
+    margin: 0;
+}
+
+.b-sidebar__popular-item:before {
+    position: absolute;
+    top: 8px;
+    right: 100%;
+    margin: 0 8px 0 0;
+    width: 5px;
+    height: 5px;
+    background: #FD6906;
+    border-radius: 50%;
+    content: '';
+}
+
+.b-sidebar__advantages-title {
+    color: #000;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.b-sidebar__advantages-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.b-sidebar__advantages-item {
+    margin: 20px 0 0;
+}
+
+.b-sidebar__advantages-item:first-child {
+    margin: 0;
+}
+
+.b-sidebar__advantages-icon,
+.b-sidebar__advantages-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.b-sidebar__advantages-icon {
+    margin: 0 10px 0 0;
+    width: 45px;
+    height: 45px;
+    background: url(iterlaadvantages.png);
+}
+
+.b-sidebar__advantages-icon_icon_clock {
+    background-position: 0 0;
+}
+
+.b-sidebar__advantages-icon_icon_diagnoses {
+    background-position: 0 -45px;
+}
+
+.b-sidebar__advantages-icon_icon_guarantee {
+    background-position: 0 -90px;
+}
+
+.b-sidebar__advantages-icon_icon_home {
+    background-position: 0 -135px;
+}
+
+.b-sidebar__advantages-icon_icon_service {
+    background-position: 0 -180px;
+}
+
+.b-sidebar__advantages-text {
+    width: 150px;
+    color: #666;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+}

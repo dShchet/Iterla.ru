@@ -1,0 +1,51 @@
+.b-foot {
+    margin: 51px 0 0;
+    position: relative;
+    padding: 15px;
+    background: #1f1e1e;
+    border-top: 4px solid #FD6906;
+}
+
+.b-foot__address {
+    color: #c9c7c7;
+}
+
+.b-foot__title {
+    font-weight: normal;
+    font-size: 24px;
+    color: #FD6906;
+}
+
+.b-foot__copy {
+    margin: 19px 0 0;
+    color: #fff;
+}
+
+.b-foot__phone {
+    margin: 0;
+    padding: 5px 0 0 50px;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    color: #FD6906;
+    font-size: 40px;
+    background: url(iterlaphone.png) 0 8px no-repeat;
+}
+
+.b-foot__phone-small,
+.b-foot__phone-sep {
+    font-style: normal;
+}
+
+.b-foot__phone-small {
+    font-size: 24px;
+}
+
+.b-foot__phone-highlight {
+    color: #f00;
+    font-style: normal;
+}
+
+.b-foot__phone-sep {
+    color: #6c6969;
+}
