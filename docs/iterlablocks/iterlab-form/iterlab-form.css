@@ -258,8 +258,8 @@
     position: absolute;
     top: 80px;
     left: 20px;
-    width: calc(50% - 110px);
-    margin-left: 0px;}
+    width: calc(50% - 107px);
+    margin-left: -4px;}
     .b-form__field-inner:nth-child(3){
     width: calc(50% - 90px);}
     .b-form__buttons{}
@@ -339,9 +339,7 @@
     top: 375px;}
     .b-form__btn-inner:first-child{
     float: none;
-    margin: 0px auto 0px;
     display: block;
-    width: 100%;
     position: relative;
     left: 50%;
     margin-left: -80px;

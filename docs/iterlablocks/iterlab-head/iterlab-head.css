@@ -13,6 +13,8 @@
     font-weight: normal;
     margin-left: 15px;
     float: left;
+    line-height: 43px;
+    margin-top: 15px;
 }
 
 .b-head__phone {
@@ -51,7 +53,8 @@
     background: -o-linear-gradient(top,  #4c4c4c 0%,#313030 100%); /* Opera 11.10+ */
     background: -ms-linear-gradient(top,  #4c4c4c 0%,#313030 100%); /* IE10+ */
     background: linear-gradient(to bottom,  #4c4c4c 0%,#313030 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#313030',GradientType=0 ); /* IE6-8 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#313030',GradientType=0 ); /* FF3.6+ */
+    z-index: 20; /* IE6-8 */
 }
 
 .b-head__address {
@@ -298,7 +301,7 @@
     padding: 0px 3px 0px;}
     .b-form__field-inner:nth-child(2){
     top: 0px;
-    left: 0px;}
+    left: 4px;}
     .b-head__slider-nav_pos_right{
     right: 10px;
     z-index: 50;
