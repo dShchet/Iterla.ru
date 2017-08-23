@@ -82,7 +82,7 @@
 
 .b-form__btn {
     display: block;
-    width: 142px;
+    width: 100%;
     text-align: center;
     text-decoration: none;
     border-radius: 4px;
@@ -114,7 +114,8 @@
     background: -o-linear-gradient(top,  #fcb861 0%,#f25d04 100%); /* Opera 11.10+ */
     background: -ms-linear-gradient(top,  #fcb861 0%,#f25d04 100%); /* IE10+ */
     background: linear-gradient(to bottom,  #fcb861 0%,#f25d04 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcb861', endColorstr='#f25d04',GradientType=0 ); /* IE6-8 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcb861', endColorstr='#f25d04',GradientType=0 ); /* FF3.6+ */
+    padding: 0px; /* IE6-8 */
 }
 
 .b-form__btn_style_green:hover {

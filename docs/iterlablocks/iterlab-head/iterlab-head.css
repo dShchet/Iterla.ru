@@ -42,8 +42,7 @@
 
 .b-head__bar {
     position: relative;
-    height: 50px;
-    line-height: 50px;
+    line-height: 25px;
     background: #4c4c4c; /* Old browsers */
     /* IE9 SVG, needs conditional override of 'filter' to 'none' */
     background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjNGM0YyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzMTMwMzAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
@@ -54,13 +53,11 @@
     background: -ms-linear-gradient(top,  #4c4c4c 0%,#313030 100%); /* IE10+ */
     background: linear-gradient(to bottom,  #4c4c4c 0%,#313030 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#313030',GradientType=0 ); /* FF3.6+ */
-    z-index: 20; /* IE6-8 */
+    z-index: 20; /* Chrome,Safari4+ */
+    padding: 10px 15px; /* IE6-8 */
 }
 
 .b-head__address {
-    position: absolute;
-    top: 0;
-    left: 12px;
     margin: 0;
     padding: 0 0 0 30px;
     font-size: 15px;
@@ -74,7 +71,6 @@
     z-index: 6;
     min-height: 305px;
     padding-top: 10px;
-    overflow: auto;
 }
 
 .b-head__bottom-left {
@@ -254,15 +250,14 @@
 }
 @media (max-width: 940px){
     .b-head__bottom{
-    padding: 10px 15px 0px;
+    padding: 10px 15px 20px;
     width: calc(100% - 30px);}
     .b-head__slider{
     left: 50%;
     float: none;
     margin-left: -260px;
     top: 0px;
-    margin-top: 15px;
-    margin-bottom: 20px;}
+    margin-top: 15px;}
     .b-head__bottom-left{
     float: none;
     width: 525px;
@@ -315,8 +310,7 @@
 }
 @media (max-width: 350px){
     .b-head__title,
-    .b-head__phone
-    {
+    .b-head__phone    {
     text-align: center;}
 }
 
