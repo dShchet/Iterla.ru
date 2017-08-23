@@ -261,14 +261,13 @@
     float: none;
     margin-left: -260px;
     top: 0px;
-    margin-top: 30px;}
+    margin-top: 15px;
+    margin-bottom: 20px;}
     .b-head__bottom-left{
     float: none;
-    width: 570px;
-    margin-top: 25px;
+    width: 525px;
     left: 50%;
-    margin-left: -280px;
-    margin-bottom: 20px;}
+    margin-left: -261px;}
     .b-head__bottom-title-middle{
     display: inline-block;}
     .b-head__bottom-title-big{}

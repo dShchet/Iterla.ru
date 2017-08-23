@@ -87,7 +87,7 @@ $(function() {
                         $formMessage
                             .html('')
                             .hide();
-                    }, 3000);
+                    }, 300000);
                 }
             }
         });
