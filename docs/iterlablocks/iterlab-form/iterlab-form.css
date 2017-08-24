@@ -74,6 +74,7 @@
 
 .b-form__btn-inner {
     margin: 10px 0 0;
+    width: 140px;
 }
 
 .b-form__btn-inner:first-child {
